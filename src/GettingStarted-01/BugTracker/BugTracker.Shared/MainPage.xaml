@@ -35,10 +35,11 @@
     
     <TextBox Text="{x:Bind Item.Description,Mode=TwoWay}"
              Grid.Row="2"
+             ScrollViewer.VerticalScrollBarVisibility="Auto"
              AcceptsReturn="True"
              Header="Description"
              Height="200"
-             Margin="10,0"
+             Margin="10,0" 
              PlaceholderText="Enter Text Here" />
 
     <TextBlock Text="Planning" FontWeight="Bold" FontSize="16" Grid.Row="3" Margin="10,0" />
